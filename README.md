@@ -15,7 +15,7 @@ To install the program, you can download the source code from the GitHub reposit
 
 To create an executable file using PyInstaller, navigate to the directory containing the source code and run the following command:
 
-```css
+```
 pyinstaller --onefile main.py
 ```
 
