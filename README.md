@@ -15,9 +15,9 @@ To install the program, you can download the source code from the GitHub reposit
 
 To create an executable file using PyInstaller, navigate to the directory containing the source code and run the following command:
 
-´´´
+´
 pyinstaller --onefile main.py
-´´´
+´
 
 This will create a single executable file called "main.exe" in the "dist" directory.
 
