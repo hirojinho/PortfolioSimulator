@@ -1,4 +1,5 @@
-#Portfolio Simulator
+Portfolio Simulator
+===================
 
 This is a portfolio simulator that uses historical market data to simulate investment returns and analyze portfolio performance. The program is written in Python and uses the following libraries:
 
@@ -7,18 +8,20 @@ This is a portfolio simulator that uses historical market data to simulate inves
     Matplotlib
     Tkinter
 
-##Installation
+Installation
+------------
 
 To install the program, you can download the source code from the GitHub repository and run it using Python. Alternatively, you can use PyInstaller to create an executable file that can be run on any computer without needing to install Python or any additional libraries.
 
 To create an executable file using PyInstaller, navigate to the directory containing the source code and run the following command:
 
-'''
+"""
 pyinstaller --onefile main.py
-'''
+"""
 
 This will create a single executable file called "main.exe" in the "dist" directory.
-##Usage
+Usage
+-----
 
 To use the program, you will need to provide a CSV file containing historical market data for the assets you wish to analyze. The file should have the following columns:
 
@@ -36,6 +39,7 @@ After selecting your assets, the program will generate a series of statistics an
     Kurtosis and skewness
     And more!
 
-##Contributions
+Contributions
+-------------
 
 If you would like to contribute to this project, feel free to submit a pull request on GitHub or contact me directly. Any contributions or feedback are greatly appreciated!
