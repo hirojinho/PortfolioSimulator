@@ -17,6 +17,7 @@ To create an executable file using PyInstaller, navigate to the directory contai
 
 ```css
 pyinstaller --onefile main.py
+```
 
 This will create a single executable file called "main.exe" in the "dist" directory.
 
